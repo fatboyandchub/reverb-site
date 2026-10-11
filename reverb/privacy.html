@@ -10,8 +10,7 @@
 <meta name="referrer" content="no-referrer">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
-<!-- TODO(before publishing): confirm the contact address with Jay, settle the lyrics paragraph,
-     then delete these TODO comments. -->
+<!-- TODO(before publishing): confirm the contact address with Jay, then delete this comment. -->
 <style>
   :root {
     color-scheme: dark;
@@ -62,7 +61,7 @@
   accounts of its own, it shows no ads, and it runs no analytics. Your library and settings stay on
   your iPhone and in your own iCloud. The developer never receives them.</p>
 
-  <p>Reverb is made and operated by Jay Crane, an individual developer in the United States,
+  <p>Reverb is made and operated by Jason Crane, an individual developer in the United States,
   reachable at <a href="mailto:support@3dlibrary.app">support@3dlibrary.app</a>. For the purposes of
   the GDPR and similar laws, that is the data controller for this policy. In practice there is little
   to control, because Reverb never sends your information to the developer.</p>
@@ -73,7 +72,7 @@
       <li>No ads, no analytics, no tracking, and no third-party code inside the app.</li>
       <li>No Reverb servers or accounts. The developer can't see your library.</li>
       <li>Your library syncs only through your own private iCloud.</li>
-      <li>Songs, previews, search and charts come from Apple. Artist bios come from Wikipedia.</li>
+      <li>Songs, previews, search and charts come from Apple.</li>
     </ul>
   </div>
 
@@ -112,8 +111,6 @@
   Privacy &amp; Security › Media &amp; Apple Music.</p>
 
   <h2>What leaves your iPhone</h2>
-  <!-- TODO(catalog): true once the store build stops calling Deezer (main still uses api.deezer.com
-       for catalog, previews and artwork). If any Deezer call remains in 1.0, add it to this list. -->
   <p>Besides iCloud and Apple Music above, these are the only services Reverb talks to:</p>
   <ul>
     <li><strong>Apple's music catalog:</strong> search, charts, artist and album pages, and song
@@ -121,18 +118,8 @@
     Apple's chart feeds. These requests include what you searched for or opened and, like any internet
     request, your IP address. Apple's <a href="https://www.apple.com/legal/privacy/">privacy policy</a>
     covers them.</li>
-    <li><strong>Song previews:</strong> to place a 30-second preview within the full song, Reverb may
-    send Apple's Shazam service a fingerprint of the preview clip. Reverb never listens through your
-    microphone.</li>
-    <li><strong>Artist bios:</strong> when you open an artist, Reverb may ask Wikipedia for a short bio,
-    sending the artist's name. The Wikimedia Foundation's
-    <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">privacy policy</a> covers
-    that request.</li>
-    <!-- TODO(lyrics): written to stay true whether or not 1.0 ships lyrics. Delete this item if
-         lyrics are dropped for good; name the provider if a licensed one is added. -->
-    <li><strong>Lyrics:</strong> if Reverb shows lyrics for a song, it sends that song's title,
-    artist, album and length to a lyrics service to find them. Apart from the IP address every
-    internet request carries, nothing about you is included.</li>
+    <!-- If a licensed lyrics service is added later, list it here (what it receives: the song's
+         title, artist, album and length). Reverb 1.0 looks up no lyrics. -->
     <li><strong>Purchases:</strong> Reverb Pro is a one-time purchase made through Apple's App Store.
     Apple handles the payment, and Reverb only learns from Apple whether Pro is unlocked. The
     developer never sees your payment details.</li>
@@ -153,8 +140,8 @@
   <h2>Deleting your data</h2>
   <p>In Reverb, open Settings and choose <strong>Delete Account &amp; Data</strong>. It erases
   everything Reverb stored on your iPhone and your library in your iCloud, then starts Reverb fresh.</p>
-  <p>To also disconnect Reverb from your Apple Account, open the Settings app, tap your name, tap
-  Sign in with Apple, choose Reverb, and follow the steps to stop using it.</p>
+  <p>To also disconnect Reverb from your Apple Account, open the Settings app, tap your name, then
+  Sign-In &amp; Security › Sign in with Apple, choose Reverb, and tap Stop Using Apple Account.</p>
   <p>Deleting the app removes everything it stored on your iPhone. If you delete the app first, your
   library stays in your iCloud; reinstall Reverb and use Delete Account &amp; Data to remove it.
   There is nothing for the developer to delete, because Reverb never sends your data to the
@@ -186,8 +173,8 @@
 </main>
 <footer>
   <p class="tm">Reverb is an independent app and is not affiliated with, endorsed by, or sponsored by
-  Apple Inc. Apple, Apple Music, iCloud, iPhone, Shazam and App Store are trademarks of Apple Inc.,
-  registered in the U.S. and other countries. Wikipedia is a trademark of the Wikimedia Foundation.</p>
+  Apple Inc. Apple, Apple Music, iCloud, iPhone and App Store are trademarks of Apple Inc.,
+  registered in the U.S. and other countries.</p>
 </footer>
 </body>
 </html>
