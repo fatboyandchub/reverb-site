@@ -66,7 +66,7 @@
   }
 
   .features { display: grid; gap: 14px; margin: 52px 0 8px; text-align: left; }
-  @media (min-width: 720px) { .features { grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 720px) { .features { grid-template-columns: repeat(2, 1fr); } }
   .card {
     background: linear-gradient(var(--card), var(--card)) padding-box, var(--brand) border-box;
     border: 1px solid transparent; border-radius: 18px; padding: 20px;
@@ -111,7 +111,7 @@
   <h1>Reverb</h1>
   <p class="pitch">A retro music player for iPhone.</p>
   <p class="lede">Spin the wheel, or turn the knob of a hi-fi deck. Full songs play through
-  Apple Music, and 30-second previews work without it.</p>
+  Apple Music, 30-second previews work without it, and your own songs play too.</p>
 
   <!-- TODO(launch): swap this text for Apple's official "Download on the App Store" badge,
        linked to the real product page. No homemade store badges. -->
@@ -128,6 +128,11 @@
       Then pick the finish you like.</p>
     </div>
     <div class="card">
+      <h2>Your own music</h2>
+      <p>Import songs from the Files app, AirDrop or your computer. Reverb finds the album art, or use
+      your own photo as the cover.</p>
+    </div>
+    <div class="card">
       <h2>Private by design</h2>
       <p>No ads, no tracking, no accounts. Your library syncs through your own iCloud.</p>
     </div>
@@ -140,7 +145,7 @@
   </nav>
   <p class="tm">Reverb is an independent app and is not affiliated with, endorsed by, or sponsored by
   Apple Inc. Apple, Apple Music, iCloud, iPhone and App Store are trademarks of Apple Inc., registered
-  in the U.S. and other countries.<br>© 2026 Reverb</p>
+  in the U.S. and other countries.<br>© 2026 Jason Crane</p>
 </footer>
 </body>
 </html>

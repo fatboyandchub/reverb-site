@@ -84,7 +84,11 @@
     set it up, and, if you sign in with Apple, what Apple shares with the app (see below).</li>
     <li><strong>Settings:</strong> your look, finish, theme and other preferences.</li>
     <li><strong>Music you import:</strong> songs you add yourself are copied into Reverb's own folder
-    on your iPhone, which you can see in the Files app. Reverb doesn't send them anywhere.</li>
+    on your iPhone, which you can see in the Files app. The files never leave your iPhone. Changes you
+    make to their song info stay on your iPhone too.</li>
+    <li><strong>Cover photos:</strong> if you choose one of your photos as a song's cover, Reverb
+    keeps a small copy of just that photo on your iPhone. It picks it through Apple's photo picker,
+    so Reverb never sees the rest of your library.</li>
     <li><strong>Caches:</strong> album art and music info Reverb has already loaded, kept for a while
     so screens open faster.</li>
   </ul>
@@ -118,15 +122,19 @@
     Apple's chart feeds. These requests include what you searched for or opened and, like any internet
     request, your IP address. Apple's <a href="https://www.apple.com/legal/privacy/">privacy policy</a>
     covers them.</li>
+    <li><strong>Album art for your imported songs:</strong> when a song you imported has no cover,
+    Reverb looks up its title, artist and album in Apple's catalog, the same way a search does, to
+    find the album art. Only those names are sent, never the song itself. You can turn this off in
+    Reverb's Settings under Find Album Art.</li>
     <!-- If a licensed lyrics service is added later, list it here (what it receives: the song's
          title, artist, album and length). Reverb 1.0 looks up no lyrics. -->
     <li><strong>Purchases:</strong> Reverb Pro is a one-time purchase made through Apple's App Store.
     Apple handles the payment, and Reverb only learns from Apple whether Pro is unlocked. The
     developer never sees your payment details.</li>
   </ul>
-  <p>The Radio picks songs with Apple's on-device AI model, using your requests and listening
-  history. That runs entirely on your iPhone and nothing about it is sent anywhere. Reverb then finds
-  the picked songs in Apple's catalog, like a search.</p>
+  <p>The Radio picks songs on your iPhone from your listening history and the artists you like.
+  Nothing about it is sent anywhere. Reverb then finds the picked songs in Apple's catalog, like a
+  search.</p>
 
   <h2>What Reverb doesn't do</h2>
   <ul>
@@ -134,7 +142,8 @@
     <li>No Reverb servers, no Reverb accounts, and no copy of your library anywhere except your
     devices and your iCloud.</li>
     <li>No selling or sharing of your information. Reverb never has it in the first place.</li>
-    <li>No access to your microphone, camera, location, photos or contacts.</li>
+    <li>No access to your microphone, camera, location or contacts. Reverb can't see your photo
+    library either: Apple's photo picker only hands over a photo you choose as a cover.</li>
   </ul>
 
   <h2>Deleting your data</h2>
